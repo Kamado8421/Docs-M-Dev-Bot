@@ -1,0 +1,196 @@
+<html>
+    <head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>© Download M'DEV-BOT</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Sans-Serif;
+    }
+    
+    :root {
+      --cor-primaria: #0ac04f;
+    }
+    body {
+      background-color: #0e151d;
+    }
+    
+    .container {
+      width: 100%;
+      min-height: 100vh;
+      height: auto;
+    }
+    
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      margin: 20px auto;
+      padding: 10px 10px 20px;
+      border-bottom: 0.5px solid var(--cor-primaria);
+    }
+    
+    header h1 {
+      color: var(--cor-primaria);
+      font-size: 20px;
+    }
+    
+    header img {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+      padding: 3px;
+      border: 1.5px solid var(--cor-primaria);
+    }
+    
+    .slogan {
+      font-size: 10px;
+      color: #b4b4b4;
+      background-color: #26313e;
+      border-radius: 3px;
+      margin-left: 16%;
+      padding: 5px;
+    }
+    
+    a {
+      color: var(--cor-primaria);
+    }
+    
+    p {
+      color: #8f8f8f;
+    }
+    
+    .repo {
+      margin-top: 60px;
+      font-size: 16px;
+    }
+    
+    main {
+      padding: 5px;
+      width: 92%;
+      margin: auto;
+      margin-top: 20px;
+    }
+    
+    .white {
+      color: #d1d1d1;
+    }
+    
+    .obs {
+      font-weight: bold;
+      
+      color: #fff;
+      
+      padding: 3px;
+      border-radius: 3px;
+      background-color: var(--cor-primaria);
+    }
+    
+    .tag {
+      font-weight: bold;
+      color: var(--cor-primaria);
+    }
+    
+    ul {
+      list-style: none;
+      margin-top: 30px;
+    }
+    
+    ul li {
+      color: #a7a7a7;
+      padding: 8px;
+      border-radius: 3px;
+      background-color: #1d2630;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <header>
+        <h1><span style="color: #fff;">©</span> M'DEV-Systems</h1>
+        <img src="./assets/member.jpg">
+      </header>
+      <main>
+        <h1 style="text-align: center; margin-bottom: 30px; margin-top: 20px;" class="tag"><span style="color: #fff;">©</span> M'DEV-BOT <span style="color: #fff;">²⁰²⁴</span></h1>
+        <span class="slogan">
+          Iae? Está procurando por um Bot de WhatsApp gratuito?
+        </span>
+        <p class="repo">
+          Acesse o repositório do <a href="https://github.com/Kamado8421/mdevbot-md-update.git">GitHub aqui.</a>
+        </p>
+        <h2 class="white" style="margin-top: 40px; margin-bottom: 30px">Comandos do Termux</h2>
+        <span class="obs">[OBS]: Esses comandos devem ser excutados apenas 1 vez.</span>
+        <ul>
+          <li>
+            <span class="tag">/$</span> <code>apt upgrade</code>
+          </li>
+          <li>
+            <span class="tag">/$</span> <code>apt update</code>
+          </li>
+          <li>
+            <span class="tag">/$</span> <code>apt install git -y</code>
+          </li>
+          <li>
+            <span class="tag">/$</span> <code>apt install nodejs -y</code>
+          </li>
+          <li>
+            <span class="tag">/$</span> <code>apt install ffmpeg -y</code>
+          </li>
+          <li>
+            <span class="tag">/$</span> <code>apt install python3 -y</code>
+          </li>
+          <li>
+            <span class="tag">/$</span> <code>pip install flask</code>
+          </li>
+        </ul>
+        <span class="obs">[OBS]: Comandos apenas para verificar as instalaçoes</span>
+        <ul>
+          <li>
+            <span class="tag">/$</span> <code>git --version</code>
+          </li>
+          <li>
+            <span class="tag">/$</span> <code>node --version</code>
+          </li>
+          <li>
+            <span class="tag">/$</span> <code>python --version</code>
+          </li>
+        </ul>
+        <span class="obs">[OBS]: Clonar o repositório do Bot</span>
+        <ul>
+          <li>
+            <span class="tag">/$</span> <code>cd /sdcard</code>
+          </li>
+           <li>
+            <span class="tag">/$</span> <code>git clone <span style="color: var(--cor-primaria)">https://github.com/Kamado8421/mdevbot-md-update.git</span></code>
+          </li>
+        </ul>
+        <span class="obs">[OBS]: Para rodar o Bot (sempre que o termux for fechado)</span>
+        <ul>
+          <li>
+            <span class="tag">/$</span> <code>cd /sdcard</code>
+          </li>
+          <li>
+            <span class="tag">/$</span> <code>cd mdevbot-md-update</code>
+          </li>
+          <li>
+            <span class="tag">/$</span> <code>npm <span style="color: var(--cor-primaria)">start</span></code>
+          </li>
+        </ul>
+        <p style="margin-top: 25px; margin-bottom: 25px">Para ficar por dentro das atualizaçoes do <br><span class="tag"> © M'Dev-Bot</span> de forma tutorializada, acesse<br> nosso <a hreflang="https://youtu.be/O1kWvRYR4AM">Canal do YouTube.</a></p>
+      </main>
+    </div>
+  </body>
+</html>
